@@ -5,6 +5,67 @@
   font-family: "Poppins", sans-serif;
 }
 
+.alinhamento, .secondSection ul li, .secondSection ul, .secondSection, .firstSection, .principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  color: #fff;
+}
+
+.principal {
+  width: 50vw;
+  min-width: 500px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 20px;
+}
+
+.firstSection {
+  width: 100%;
+  height: 30%;
+  gap: 10px;
+}
+
+.photo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.firstSection h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.secondSection {
+  width: 100%;
+  height: 70%;
+}
+
+.secondSection ul {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.secondSection ul li {
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  width: 100%;
+}
+
+.secondSection ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   body {
     background-image: url("/assets/images/Mobile_Night.gif");
@@ -14,7 +75,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
