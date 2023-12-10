@@ -16,7 +16,8 @@
 }
 
 .principal {
-  width: 50vw;
+  width: 80vw;
+  max-width: 500px;
   background: transparent;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -67,7 +68,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   body {
-    background-image: url("/assets/images/Mobile_Night.gif");
+    background-image: url("/assets/images/Mario_Mobile.jpg");
   }
 }
 body {

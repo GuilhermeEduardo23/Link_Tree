@@ -1,2 +1,2 @@
-const largura = document.body.clientWidth;
-alert(largura);
+const altura = document.body.clientHeight;
+alert(altura);
