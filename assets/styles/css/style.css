@@ -17,7 +17,6 @@
 
 .principal {
   width: 50vw;
-  min-width: 500px;
   background: transparent;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
