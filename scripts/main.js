@@ -1,1 +1,2 @@
-//document.getEme
+const largura = document.body.clientWidth;
+alert(largura);
