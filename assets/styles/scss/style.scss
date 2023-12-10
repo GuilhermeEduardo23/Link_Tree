@@ -8,6 +8,7 @@
 @import 'section.scss';
 @import 'footer.scss';
 @import 'responsive.scss';
+@import 'light_dark_mode.scss';
 
 body {
     background-position: center;
@@ -17,4 +18,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }

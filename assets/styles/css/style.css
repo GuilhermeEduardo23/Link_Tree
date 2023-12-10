@@ -37,8 +37,8 @@
   background: #fff;
   position: absolute;
   z-index: 999;
-  right: -9px;
-  top: -9px;
+  right: -5px;
+  top: -5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +56,6 @@
 .photo {
   width: 120px;
   border-radius: 50%;
-  border: 1px solid #ffff00;
 }
 
 .firstSection h2 {
@@ -85,7 +84,7 @@
   color: #fff;
 }
 
-.secondSection ul li a {
+.links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +94,7 @@
   font-size: 1.2rem;
   transition: 0.5s;
 }
-.secondSection ul li a:hover {
+.links:hover {
   color: #fff;
 }
 
@@ -123,6 +122,33 @@
     background-image: url("/assets/images/Mario_Desktop_gif.gif");
   }
 }
+.dark {
+  background-image: url("/assets/images/Dark_Mobile.jpg");
+  color: #fff;
+}
+
+.principalDark {
+  border: 1px solid #fff;
+}
+
+.textWhite a {
+  color: #fff;
+}
+.textWhite a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.modeDark {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+.modeDark:hover {
+  background: #fff;
+  color: #000;
+}
+
 body {
   background-position: center;
   background-size: cover;
@@ -131,6 +157,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

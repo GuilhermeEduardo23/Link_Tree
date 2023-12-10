@@ -34,8 +34,8 @@
     background: $white;
     position: absolute;
     z-index: 999;
-    right: -9px;
-    top: -9px;
+    right: -5px;
+    top: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,6 @@
 .photo {
     width: 120px;
     border-radius: 50%;
-    border: 1px solid $yellow;
 }
 
 .firstSection h2 {
@@ -90,7 +89,7 @@
     }
 }
 
-.secondSection ul li a {
+.links {
     display: flex;
     align-items: center;
     justify-content: center;

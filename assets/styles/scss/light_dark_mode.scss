@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+.dark {
+    background-image: url('/assets/images/Dark_Mobile.jpg');
+    color: $white;
+}
+
+.principalDark {
+    border: 1px solid $white;
+}
+
+.textWhite a {
+    color: $white;
+
+    &:hover {
+        background: $white;
+        color: $black;
+    }
+}
+
+.modeDark {
+    background: $black;
+    color: $white;
+    transition: .5s;
+
+    &:hover {
+        background: $white;
+        color: $black;
+    }
+}
