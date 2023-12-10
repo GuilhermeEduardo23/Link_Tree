@@ -1,5 +1,11 @@
 @media(min-width: 320px) and (max-width: 767px) {
     body {
-        
+        background-image: url('/assets/images/Mario_Mobile.jpg');
+    }
+}
+
+@media(min-width: 768px) {
+    body {
+        background-image: url('/assets/images/Mario_Desktop_gif.gif');
     }
 }
