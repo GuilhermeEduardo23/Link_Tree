@@ -5,18 +5,18 @@
     align-items: center;
     justify-content: space-around;
     padding: .5rem;
-    color: #000;
 }
 
 .principal {
     @extend .alinhamento;
-    width: 80vw;
+    width: 90vw;
     max-width: 500px;
     background: transparent;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius: 20px;
+    border: 1px solid #1A73E8;
 }
 
 .firstSection {
@@ -24,6 +24,7 @@
     width: 100%;
     height: 30%;
     gap: 10px;
+    border-bottom: 1px solid #000;
 }
 
 .photo {
@@ -44,22 +45,36 @@
 
 .secondSection ul {
     @extend .alinhamento;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
 }
 
 .secondSection ul li {
     @extend .alinhamento;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     list-style: none;
-    width: 100%;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+
+    &:hover {
+        border: 1px solid #1A73E8;
+        background: #000;
+        color: #fff;
+    }
 }
 
 .secondSection ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     text-decoration: none;
     color: #000;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    transition: .5s;
+
+    &:hover {
+        color: #fff;
+    }
 }
