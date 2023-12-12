@@ -106,14 +106,9 @@
   font-weight: 600;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  body {
-    background-image: url("/assets/images/wallpaper_mobile.png");
-  }
-}
 @media (min-width: 768px) {
   body {
-    background-image: url("/assets/images/Wallpaper_Desktop.gif");
+    background: url("/assets/images/Wallpaper_Desktop.gif");
   }
 }
 .darkMobile {
@@ -139,6 +134,7 @@
 }
 
 body {
+  background: url("/assets/images/wallpaper_mobile.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
