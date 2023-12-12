@@ -108,36 +108,14 @@
 
 @media (max-width: 767px) {
   body {
-    background-image: url("/assets/images/wallpaper_mobile.png");
+    background-image: url("/LinkTree/assets/images/wallpaper_mobile.png");
   }
 }
 @media (min-width: 768px) {
   body {
-    background-image: url("/assets/images/Wallpaper_Desktop.gif");
+    background-image: url("/LinkTree/assets/images/Wallpaper_Desktop.gif");
   }
 }
-.darkMobile {
-  background-image: url("/assets/images/Dark_Mobile.jpg");
-  color: #fff;
-}
-
-.principalDark {
-  border: 1px solid #fff;
-}
-
-.textWhite {
-  color: #000;
-}
-.textWhite:hover {
-  background: #fff;
-  color: #000;
-}
-
-.modeDark {
-  background: #000;
-  border: none;
-}
-
 body {
   background-position: center;
   background-size: cover;
