@@ -108,12 +108,12 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   body {
-    background-image: url("/assets/images/Mario_Mobile.jpg");
+    background-image: url("/assets/images/wallpaper_mobile.png");
   }
 }
 @media (min-width: 768px) {
   body {
-    background-image: url("/assets/images/Mario_Desktop_gif.gif");
+    background-image: url("/assets/images/Wallpaper_Desktop.gif");
   }
 }
 .darkMobile {
