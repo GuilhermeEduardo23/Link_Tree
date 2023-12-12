@@ -108,12 +108,12 @@
 
 @media (max-width: 767px) {
   body {
-    background-image: url("/Link_Tree/assets/images/wallpaper_mobile.png");
+    background-image: url("/Link_Tree/assets/images/Mobile_Day.webp");
   }
 }
 @media (min-width: 768px) {
   body {
-    background-image: url("/Link_Tree/assets/images/Wallpaper_Desktop.gif");
+    background-image: url("/Link_Tree/assets/images/Desktop_Day.gif");
   }
 }
 body {
