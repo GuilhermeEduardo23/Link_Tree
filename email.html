@@ -4,9 +4,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Email Style CSS -->
+        <link rel="stylesheet" href="assets/styles/css/email.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+        <!-- Ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+
+        <!-- Email JS -->
+        <script src="/scripts/enviarEmail.js" defer></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init("oXKMjJ3psTgu8fatF");
+            })();
+        </script>
+
         <title>E-mail</title>
     </head>
+
     <body>
-        
+        <form class="form">
+            <input type="text" name="name" id="name" placeholder="Insira o seu nome" required>
+            <input type="email" name="email" id="email" placeholder="Informe o seu email" required>
+            <textarea name="" id="" cols="30" rows="10" class="message" placeholder="Insira aqui a sua mensagem" required></textarea>
+            <button class="btn">Enviar</button>
+        </form>
     </body>
 </html>
