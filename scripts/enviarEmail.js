@@ -19,7 +19,7 @@ button.addEventListener('click', async (e) => {
     try {
         alert('E-mail enviado com sucesso!');
     } catch (error) {
-        alert('No momento houve um erro ao enviar e-mail. Tente novamente!');
+        alert('No momento houve um erro ao enviar o e-mail. Tente novamente!');
     } finally {
         formulario.reset();
     }
