@@ -4,7 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-mail</title>
+        
+        <!-- Styles CSS -->
+        <link rel="stylesheet" href="./assets/styles/css/email.css">
+
+        <!-- Ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 
         <!-- Email JS -->
         <script src="/scripts/enviarEmail.js" defer></script>
@@ -17,20 +28,40 @@
                 emailjs.init("oXKMjJ3psTgu8fatF");
             })();
         </script>
+
+        <title>E-mail</title>
     </head>
     
-    <body>
-        <div class="img">
-            <img src="/assets/images/3d-casual-life-graphic-design-software-on-laptop.png" alt="">
-        </div>
-        <div class="formulario">
-            <form class="form">
-                <input type="text" name="name" id="name" placeholder="Insira o seu nome" required>
-                <input type="email" name="email" id="email" placeholder="Informe o seu email" required>
-                <textarea name="" id="" cols="30" rows="10" class="message" placeholder="Insira aqui a sua mensagem" required></textarea>
-                <button class="btn">Enviar</button>
-                <button class="btn" id="close">Fechar</button>
-            </form>
+    <body class="flexBox">
+        <main class=" flexBox container">
+            <div class="flexBox img">
+                <img class="imagem" src="/assets/images/e-mail.png" alt="Ilustração de E-mail">
+            </div>
+            <div class="flexBox formulario">
+                <h1 class="flexBox title">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    Entre em contato!
+                </h1>
+                <p class="description">Envie um e-mail com dúvidas, sugestões, elogios ou críticas.</p>
+                <form class="flexBox form">
+                    <input type="text" name="name" id="name" placeholder="Insira o seu nome" class="input" required>
+                    <input type="email" name="email" id="email" placeholder="Informe o seu e-mail" class="input" required>
+                    <textarea cols="30" rows="10" class="message" placeholder="Insira aqui a sua mensagem" class="message" required></textarea>
+                    <div class="flexBox buttons">
+                        <button class="flexBox btn" id="enviar">
+                            <ion-icon name="send-outline"></ion-icon>
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <div class="janela-modal" id="janela-modal">
+            <div class="modal">
+                <button class="fechar" id="fechar">x</button>
+                <p>✅ E-mail enviado com sucesso!</p>
+            </div>
         </div>
     </body>
     </html>

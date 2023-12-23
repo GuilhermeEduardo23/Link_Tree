@@ -9,6 +9,7 @@ function criarLinks() {
 
     //Atribuição via desestruturação (Destructuring assignment)
     const {aplicativos, links, icons} = dados;
+
     const secondSection = document.querySelector('.secondSection');
 
     for(let i = 0; i < aplicativos.length; i++) {
