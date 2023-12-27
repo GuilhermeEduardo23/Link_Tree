@@ -1,6 +1,6 @@
 const enviar = document.getElementById('enviar');
 
-enviar.addEventListener('submit', async (e) => {
+enviar.addEventListener('click', async (e) => {
     e.preventDefault();
 
     const formulario = document.querySelector('.form');
