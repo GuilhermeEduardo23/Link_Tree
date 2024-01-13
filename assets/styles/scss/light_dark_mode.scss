@@ -1,24 +1,25 @@
 @import 'variables.scss';
 
-.darkMobile {
-    background-image: url('/assets/images/Dark_Mobile.jpg');
-    color: $white;
-}
+/* Mobile Mode */
 
-.principalDark {
-    border: 1px solid $white;
-}
-
-.textWhite {
-    color: $black;
-
-    &:hover {
-        background: $white;
-        color: $black;
+/* Dark Mode */
+@media(max-width: 767px) {
+    .darkMobile {
+        background-image: url('/assets/images/Dark_Mobile.jpg');
+        color: $white;
     }
 }
 
-.modeDark {
-    background: $black;
-    border: none;
+/*  Desktop Mode */
+
+/* Dark Mode */
+@media(min-width: 768px) {
+    .darkDesktop {
+        background-image: url('/assets/images/Desktop_Dark.gif');
+        color: $white;
+    }
+}
+
+.linksColorWhite {
+    color: $white;
 }

@@ -40,7 +40,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: 1px solid $blue;
     width: 20px;
     height: 20px;
 }
@@ -63,6 +62,7 @@
 
 .secondSection ul {
     @extend .alinhamento;
+    gap: 10px;
 }
 
 .secondSection ul li {

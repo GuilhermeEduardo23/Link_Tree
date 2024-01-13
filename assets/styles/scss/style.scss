@@ -2,16 +2,15 @@
 @import 'section.scss';
 @import 'footer.scss';
 @import 'responsive.scss';
-//@import 'light_dark_mode.scss';
+@import 'light_dark_mode.scss';
 
 body {
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    //transition: .5s;
+    transition: .5s;
 }
