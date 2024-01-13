@@ -5,7 +5,6 @@ const links = document.querySelectorAll('.links');
 (function createIcon() {
     icon.setAttribute('src', 'assets/images/lua.png');
     botao.appendChild(icon);
-    
 })();
 
 const alterarTema = () => {
