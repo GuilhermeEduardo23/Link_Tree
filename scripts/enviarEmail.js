@@ -33,7 +33,6 @@ enviar.addEventListener('click', async (e) => {
     
     try {
         janelaModal.style.display = 'flex';
-        console.log('Deu certo');
     } catch (error) {
         alert('No momento houve um erro ao enviar o e-mail. Tente novamente!');
     } finally {
